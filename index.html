@@ -1,0 +1,308 @@
+ <!DOCTYPE html>
+  <html lang="pt-BR">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Connect - Exclusão de Conta</title>
+      <meta name="description" content="Instruções para excluir sua conta do Connect">
+      <style>
+          * {
+              margin: 0;
+              padding: 0;
+              box-sizing: border-box;
+          }
+
+          body {
+              font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+              background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+              min-height: 100vh;
+              padding: 20px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+          }
+
+          .container {
+              background: white;
+              max-width: 700px;
+              width: 100%;
+              padding: 40px;
+              border-radius: 16px;
+              box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+          }
+
+          .header {
+              text-align: center;
+              margin-bottom: 40px;
+          }
+
+          .logo {
+              font-size: 48px;
+              margin-bottom: 10px;
+          }
+
+          h1 {
+              color: #D56A68;
+              font-size: 28px;
+              margin-bottom: 10px;
+          }
+
+          .subtitle {
+              color: #666;
+              font-size: 16px;
+          }
+
+          .method {
+              background: #f8f9fa;
+              padding: 25px;
+              margin: 25px 0;
+              border-radius: 12px;
+              border-left: 5px solid #D56A68;
+          }
+
+          .method h3 {
+              color: #333;
+              font-size: 20px;
+              margin-bottom: 15px;
+              display: flex;
+              align-items: center;
+              gap: 10px;
+          }
+
+          .method-icon {
+              font-size: 24px;
+          }
+
+          ol, ul {
+              margin-left: 20px;
+              line-height: 2;
+              color: #444;
+          }
+
+          ol li, ul li {
+              margin: 8px 0;
+          }
+
+          strong {
+              color: #D56A68;
+          }
+
+          .email-box {
+              background: #fff;
+              border: 2px dashed #D56A68;
+              padding: 15px;
+              border-radius: 8px;
+              margin: 15px 0;
+              text-align: center;
+          }
+
+          .email-link {
+              color: #D56A68;
+              text-decoration: none;
+              font-size: 18px;
+              font-weight: bold;
+          }
+
+          .email-link:hover {
+              text-decoration: underline;
+          }
+
+          .data-section {
+              margin: 30px 0;
+          }
+
+          .data-section h3 {
+              color: #333;
+              font-size: 20px;
+              margin-bottom: 15px;
+          }
+
+          .data-list {
+              display: grid;
+              grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+              gap: 10px;
+              margin: 15px 0;
+          }
+
+          .data-item {
+              background: #e8f5e9;
+              padding: 12px;
+              border-radius: 8px;
+              display: flex;
+              align-items: center;
+              gap: 10px;
+          }
+
+          .check {
+              color: #4caf50;
+              font-size: 20px;
+          }
+
+          .warning {
+              background: #fff3cd;
+              border: 2px solid #ffc107;
+              padding: 20px;
+              border-radius: 12px;
+              margin: 25px 0;
+          }
+
+          .warning h3 {
+              color: #856404;
+              display: flex;
+              align-items: center;
+              gap: 10px;
+              margin-bottom: 15px;
+              font-size: 20px;
+          }
+
+          .warning p {
+              color: #856404;
+              line-height: 1.8;
+              margin: 10px 0;
+          }
+
+          .footer {
+              text-align: center;
+              margin-top: 40px;
+              padding-top: 20px;
+              border-top: 2px solid #eee;
+              color: #999;
+              font-size: 14px;
+          }
+
+          .footer a {
+              color: #D56A68;
+              text-decoration: none;
+          }
+
+          .footer a:hover {
+              text-decoration: underline;
+          }
+
+          @media (max-width: 600px) {
+              .container {
+                  padding: 25px;
+              }
+
+              h1 {
+                  font-size: 24px;
+              }
+
+              .method {
+                  padding: 20px;
+              }
+
+              .data-list {
+                  grid-template-columns: 1fr;
+              }
+          }
+      </style>
+  </head>
+  <body>
+      <div class="container">
+          <div class="header">
+              <div class="logo">🗑️</div>
+              <h1>Connect - Exclusão de Conta</h1>
+              <p class="subtitle">Como excluir permanentemente sua conta e dados</p>
+          </div>
+
+          <div class="method">
+              <h3>
+                  <span class="method-icon">📱</span>
+                  Opção 1: Dentro do App
+              </h3>
+              <ol>
+                  <li>Abra o aplicativo <strong>Connect</strong></li>
+                  <li>Navegue até <strong>Perfil</strong></li>
+                  <li>Toque em <strong>Configurações ⚙️</strong></li>
+                  <li>Selecione <strong>"Conta"</strong></li>
+                  <li>Toque em <strong>"Excluir minha conta"</strong></li>
+                  <li>Confirme a exclusão digitando sua senha</li>
+              </ol>
+          </div>
+
+          <div class="method">
+              <h3>
+                  <span class="method-icon">📧</span>
+                  Opção 2: Por E-mail
+              </h3>
+              <p>Envie um e-mail para nossa equipe de suporte:</p>
+
+              <div class="email-box">
+                  <a href="mailto:support@connect-app.com?subject=Solicitação de Exclusão de Conta" class="email-link">
+                      support@connect-app.com
+                  </a>
+              </div>
+
+              <p><strong>Assunto do e-mail:</strong> Solicitação de Exclusão de Conta</p>
+
+              <p><strong>Inclua as seguintes informações:</strong></p>
+              <ul>
+                  <li>Seu nome completo</li>
+                  <li>E-mail cadastrado no aplicativo</li>
+                  <li>Nome de usuário (se lembrar)</li>
+                  <li>Motivo da exclusão (opcional)</li>
+              </ul>
+
+              <p><em>⏱️ Prazo de resposta: até 48 horas úteis</em></p>
+          </div>
+
+          <div class="data-section">
+              <h3>🗂️ Dados que serão Excluídos</h3>
+              <p>Ao solicitar a exclusão da conta, os seguintes dados serão <strong>permanentemente removidos</strong>:</p>
+
+              <div class="data-list">
+                  <div class="data-item">
+                      <span class="check">✓</span>
+                      <span>Informações de perfil</span>
+                  </div>
+                  <div class="data-item">
+                      <span class="check">✓</span>
+                      <span>Posts publicados</span>
+                  </div>
+                  <div class="data-item">
+                      <span class="check">✓</span>
+                      <span>Stories criados</span>
+                  </div>
+                  <div class="data-item">
+                      <span class="check">✓</span>
+                      <span>Comentários e curtidas</span>
+                  </div>
+                  <div class="data-item">
+                      <span class="check">✓</span>
+                      <span>Mensagens enviadas</span>
+                  </div>
+                  <div class="data-item">
+                      <span class="check">✓</span>
+                      <span>Conexões e seguidores</span>
+                  </div>
+                  <div class="data-item">
+                      <span class="check">✓</span>
+                      <span>Dados de analytics</span>
+                  </div>
+                  <div class="data-item">
+                      <span class="check">✓</span>
+                      <span>Configurações</span>
+                  </div>
+              </div>
+          </div>
+
+          <div class="warning">
+              <h3>
+                  <span>⚠️</span>
+                  ATENÇÃO - Leia antes de excluir
+              </h3>
+              <p><strong>A exclusão da conta é PERMANENTE e IRREVERSÍVEL!</strong></p>
+              <p>• Você não poderá recuperar seus dados após a exclusão</p>
+              <p>• Seu nome de usuário ficará disponível para outros usuários</p>
+              <p>• Conteúdo compartilhado em conversas de grupo permanecerá visível</p>
+              <p>• Por motivos legais, alguns logs podem ser mantidos por até 30 dias em backup, após isso são permanentemente excluídos</p>
+          </div>
+
+          <div class="footer">
+              <p><strong>Connect</strong> - Corporate Social Network</p>
+              <p>© 2024 Connect Team | <a href="mailto:support@connect-app.com">Suporte</a></p>
+          </div>
+      </div>
+  </body>
+  </html>
